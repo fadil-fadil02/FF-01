@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><h2>Home</h2></a>
+          </li>
+          <li>
+            <a href="about.html"><h2>About</h2></a>
+          </li>
+          <li>
+            <a href="contact.html"><h2>Contact</h2></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Get in touch</h2>
+        <form action="/submit" method="POST">
+          <label for="name">name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <br />
+          <label for="email">email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <br />
+
+          <label for="massage">massage:</label>
+          <textarea
+            type="massage"
+            id="massage"
+            name="massage"
+            required
+          ></textarea>
+
+          <br />
+
+          <label for="country">country:</label>
+          <select id="country" name="country">
+            <option value="SY">Syria</option>
+            <option value="UA">Uae</option>
+            <option value="GBP">BRITAIN</option>
+          </select>
+          <hr />
+          <button type="submit">send</button>
+        </form>
+      </section>
+
+      <hr />
+      <section>
+        <h2>Contact List</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+
+              <th>Email</th>
+
+              <th>Country</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>FADIL02</td>
+
+              <td>FADIL FADIL02@gmail.com</td>
+
+              <td><b>Syria</b></td>
+            </tr>
+
+            <tr>
+              <td>FADIL02</td>
+
+              <td>FADIL FADIL02@gmail.com</td>
+
+              <td><b>BRITAIN</b></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;2024 My project</p>
+    </footer>
+  </body>
+</html>
